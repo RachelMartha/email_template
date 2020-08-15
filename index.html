@@ -3,25 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <title>Document project</title>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <title>inBox</title>
+  <script src="https://kit.fontawesome.com/578b7533e7.js" crossorigin="anonymous"></script>
+
+  
+
 </head>
   <body>
+
     <div class="container-fluid">
-      <div class="row w-100">
-        <div class="col-3 red">
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus ad nam quia optio illo temporibus tempora, maiores minima magnam, doloribus ut repellendus inventore? Corrupti quo placeat perferendis incidunt, laboriosam quis?</p>
+        
+        <div class="row w-100">
+          <div class="col-sm brown">
+            <p>Welcome Rachel!</p>
+            <button class="d-block">Compose</button>
+            <p><span><i class="fas fa-envelope-square"></i></span>  Inbox</p>            
+            <p><span><i class="far fa-envelope-open"></i></span>  Read</p>
+            <p><span><i class="fas fa-exclamation"></i></span>  Important</p>
+            <p><span><i class="far fa-share-square"></i></span>  Sent Mail</p>
+            <p><span><i class="far fa-trash-alt"></i></span></i>  Trash</p>
+          </div>
+
+
+          <div class="col-sm mauve">
+          
+            <div class="search">
+             <input type="text" placeholder="Search..">
+          </div>
+            
+            <h1>LinkedIn</h1>
+            <p>You have a new connection request.</p>
+            <h1>Michael Scott Daily Quotes</h1>
+            <p>Your daily quote is here.</p>
+            <div id="wrapper">
+            <h1>Jobs R Us</h1>
+            <p>You're Hired</p>
+        </div>
         </div>
 
-        <div class="col-3 blue">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error ipsa, voluptas illo quae sit quisquam porro perferendis natus laboriosam repellendus provident iusto sint itaque reprehenderit, dicta dolorem ea quod dignissimos?</p>
-        </div>
 
-        <div class="col-6 yellow">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ea enim dicta. Doloremque fuga minus voluptates inventore quaerat, ullam ea nihil odit sunt quas molestias, aspernatur veniam doloribus in sint.</p>
+          <div class="col-sm pink">
+            <h2>To: rachel@yomama.com</h2>
+            <h2> From: reply@yomama.com<span>    <i class="fas fa-reply"></i></span></h2>
+            <h3>Jobs R Us</h3>
+            <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt corporis architecto eos earum accusantium hic dolores magni, sed ea doloremque rerum quasi fuga nemo voluptates aut, eum expedita aperiam nobis? </h4>
+            
+            
+          </div>
         </div>
       </div>
-    </div>
+    
   </body>
 </html>
